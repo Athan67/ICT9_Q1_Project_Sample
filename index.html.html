@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <ul class="navlinks"></ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#works">My Works</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <section class="hero">
+        <div class="class-container">
+            <h1>Welcome to My Portfolio!</h1>
+        <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t1.15752-9/813853315_2180062345886058_1053291697881861654_n.png?_nc_cat=103&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=9f807c&_nc_ohc=mMJK1OQn9rwQ7kNvwF4e4W-&_nc_oc=AdrNHtBICa_O-PGoU_rTWf5-abEr9AmtNhAtmpzv5eoKgV0OFFnZQpWf9A_a22v4UiY&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&_nc_ss=7b6a8&oh=03_Q7cD6QGOaJBP1D2hOXOeE13YqDifq4IwGfmnlXoTDzdCM_zNig&oe=6AD9C42A" alt="profile picture" class="pfp"> 
+        <h1>Hi, I'm Athan!</h1>
+        <p>Aspiring Web Developer</p>
+        </div>
+    </section>
+
+     <br>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hi! I'm Athan, a student passionate about technology, especially in web development. I enjoy creating simple and creative websites. In my free time, I explore new coding tricks and design tools.</p>
+    </section>
+    <section id="works">
+        <h1>My Works</h1>
+        <div class="works-gallery">
+            <div class="work-item">
+<img src="https://bluezooweb.com/wp-content/uploads/2024/11/Best-Websites-for-Web-Design-Inspiration-Brilliant-Examples-to-Boost-Your-Creativity-scaled.jpeg" alt="Drill1" style="border: 2px dashed black" width="350px">
+                <p>App Recommendations</p>
+            </div>
+
+            <div class="work-item">
+                <ul>
+                    <li> HTML & CSS Properties</li>
+                    <li> App Recommendations</li>
+                    <li> Lists, Hyperlinks, Images</li>
+                    <li> <a href="">View</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="form-container">
+            <form>
+                <label for="name">Your Name:</label>
+
+                <input type="text" id="name" name="name" placeholder="Athan Herrera">
+                <br>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="athanherrera@gmail.com">
+                
+                <br>
+
+                <label>How did you find me?</label>
+                <div class="radio-group">
+                    <input type="radio" id="r1" name="r-selection" value="1" required>
+                    <label for="r1">Facebook</label>
+
+
+                    <input type="radio" id="r2" name="r-selection" value="2" required>
+                    <label for="r2">Instagram</label>
+
+
+                    <input type="radio" id="r3" name="r-selection" value="3" required>
+                    <label for="r3">Discord</label>
+                </div>
+
+
+                <br>
+
+
+                <label>Interested in:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="ch1" name="interests" value="checkbox1">
+                    <label for="ch1">Web Design</label>
+
+
+                    <input type="checkbox" id="ch2" name="interests" value="checkbox2">
+                    <label for="ch2">Graphics Design</label>
+
+
+                    <input type="checkbox" id="ch3" name="interests" value="checkbox3">
+                    <label for="ch3">Robotics</label>
+                </div>
+                <br>
+
+
+                <label for="selection">Rate My Portfolio</label>
+                <select id="selection" name="selection" required>
+                    <option value="">--Select Rating--</option>
+                    <option value="1">⭐️</option>
+                    <option value="2">⭐️⭐️</option>
+                    <option value="3">⭐️⭐️⭐️</option>
+                    <option value="4">⭐️⭐️⭐️⭐️</option>
+                    <option value="5">⭐️⭐️⭐️⭐️⭐️</option>
+                </select>
+
+                <br>
+
+                <label for="feedback">Any Feedback?</label>
+                
+                <br>
+                
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Write your feedback here..." required></textarea>
+
+                <br>
+
+            <button type="submit">Submit</button>
+            </form>
+
+        </div>
+    </section>
+
+<br>
+
+
+    <footer>
+        <p>© 2026 Athan Herrera, 9-Emerald. All rights reserved.</p>
+    </footer>
+</body>
+</html>
